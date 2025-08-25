@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+            <div>
+                <h3 class="names">HOME</h3>
+                <div class="score">
+                    <h1 class="score-value" id="home-score">0</h1>   
+                </div>
+                <div class="add-points"> 
+                    <button id="btn-1-home" class="add" onclick="onePointH()">+1</button>
+                    <button id="btn-two-home" class="add" onclick="twoPointH()">+2</button>
+                    <button id="btn-3-home" class="add" onclick="threePointH()">+3</button>	
+                </div>
+            </div>
+            <div>
+                <h3 class="names">GUEST</h3>
+                <div class="score">
+                    <h1 class="score-value" id="guest-score">0</h1>
+                </div>
+                <div class="add-points"> 
+                    <button id="btn-1-guest" class="add" onclick="onePointG()">+1</button>
+                    <button id="btn-two-guest" class="add" onclick="twoPointG()">+2</button>
+                    <button id="btn-3-guest" class="add" onclick="threePointG()">+3</button>	
+                </div>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
